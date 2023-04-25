@@ -1,0 +1,70 @@
+:root {
+   --main-bg-input: #3a5a40;
+   --main-text-color: #dad7cd;
+}
+.create {
+   position: relative;
+   top: -220px;
+
+}
+
+#name, #age {
+   margin-left: 20px;
+   font-size: 20px;
+}
+
+label {
+   font-size: 24px;
+   font-weight: 800;
+}
+
+input {
+   color: black;
+}
+
+.wrapper {
+   font-size: 20px;
+   background-color: var(--main-bg-input);
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.space {
+   margin-right: 20px;
+}
+
+.wrapper-name {
+   background-color: var(--main-bg-input);
+   width: 700px;
+   padding: 15px;
+   margin: 15px;
+   display: flex;
+   justify-content: center;
+}
+
+.wrapper-textarea {
+   background-color: var(--main-bg-input);
+   width: fit-content;
+   padding: 15px;
+   margin: 15px;
+   display: flex;
+}
+
+.header {
+   margin-top: 50px;
+}
+
+#submit {
+   background-color: #3a5a40;
+   color: var(--main-text-color);
+   width: 200px;
+   padding: 10px;
+   font-size: 30px;
+   margin-top: 20px;
+   font-weight: 800;
+   border-radius: 20px;
+}
+
+.skill {
+   font-size: 25px;
+}

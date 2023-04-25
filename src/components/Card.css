@@ -1,0 +1,42 @@
+:root {
+   --main-text-color: #dad7cd;
+}
+
+.Card {
+   background-color: #3a5a40;
+   border-radius: 20px;
+   border: 1px solid white;
+   width: 350px;
+   height: 500px;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 10px;
+   text-decoration: none;
+   position: relative;
+   top: -100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.name {
+   color: var(--main-text-color);
+   padding-left: 30px;
+   font-size: 24px;
+   text-decoration: none
+}
+
+.age {
+   color: var(--main-text-color);
+   padding-left: 30px;
+   font-size: 24px;
+   text-decoration: none
+}
+
+.primary_skill {
+   color: var(--main-text-color);
+   padding-left: 30px;
+   font-size: 24px;
+   text-decoration: none
+}
